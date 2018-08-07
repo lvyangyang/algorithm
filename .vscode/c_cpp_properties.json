@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "C:MinGW/include",
+                "C:/MinGW/lib/gcc/mingw32/6.3.0/include"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "C:/TDM-GCC-32/include",
+                    "C:/TDM-GCC-32/lib/gcc/mingw32/5.1.0/include"
+                ]
+            },
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "clang_format": {
+        "style": "file",
+        "fallback-style": "LLVM",
+        "sort-includes": false
+    },
+    "version": 4
+}
