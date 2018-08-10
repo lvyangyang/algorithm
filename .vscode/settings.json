@@ -5,6 +5,10 @@
         "iosfwd": "cpp",
         "utility": "cpp",
         "xutility": "cpp",
-        "stdexcept": "cpp"
+        "stdexcept": "cpp",
+        "xstring": "cpp",
+        "xlocale": "cpp",
+        "system_error": "cpp",
+        "xstddef": "cpp"
     }
 }
