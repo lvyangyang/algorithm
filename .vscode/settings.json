@@ -9,6 +9,9 @@
         "xstring": "cpp",
         "xlocale": "cpp",
         "system_error": "cpp",
-        "xstddef": "cpp"
+        "xstddef": "cpp",
+        "ios": "cpp",
+        "xiosbase": "cpp",
+        "limits": "cpp"
     }
 }
