@@ -12,6 +12,8 @@
         "xstddef": "cpp",
         "ios": "cpp",
         "xiosbase": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "cstdlib": "cpp",
+        "cmath": "cpp"
     }
 }
