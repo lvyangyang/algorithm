@@ -43,8 +43,10 @@ int main()
     int* list=new int[list_length];
     int iter=0;
     srand(25);
+    
     for(iter=0;iter<list_length;iter++)
     list[iter]=rand();
+
     swap(list[0],list[15]);
     cout<<list[0]<<endl;
     partition(list,0,list_length-1);

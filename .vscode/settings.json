@@ -14,6 +14,13 @@
         "xiosbase": "cpp",
         "limits": "cpp",
         "cstdlib": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "queue": "cpp",
+        "list": "cpp",
+        "deque": "cpp",
+        "vector": "cpp",
+        "xtree": "cpp",
+        "map": "cpp",
+        "string": "cpp"
     }
 }
