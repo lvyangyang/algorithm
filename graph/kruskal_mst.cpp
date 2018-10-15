@@ -86,6 +86,11 @@ int main()
     vector<set<string>> v_set_vec;
     vector<edge> edge_vec;
     set<edge> treed_edge;
+
+
+
+
+    
     //获得所有的边
     map<string,vertex>::iterator iter=v_map.begin();
     list<v_target>::iterator l_iter;
@@ -105,8 +110,11 @@ int main()
        iter++;
         
     }
+    //...............
+
     //排序
     sort(edge_vec.begin(),edge_vec.end(),less_than);
+    //寻找安全边
     vector<edge>::iterator edge_vec_iter=edge_vec.begin();
     while(edge_vec_iter!=edge_vec.end())
     {
