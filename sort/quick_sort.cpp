@@ -8,19 +8,19 @@ int partition(T *A,int start,int end)
     int iter_s,iter_e;
     iter_s=start;
     iter_e=end;
+    T key=A[start];
     while(iter_s!=iter_e)
     {
-        if(A[iter_s]>A[iter_s+1])
+        while(iter_s!=iter_e&&A[iter_e]>key)
         {
-            swap(A[iter_s],A[iter_s+1]);
-            iter_s++;
-        }
-        else{
-            if(A[iter_e]<=A[iter_s])
-            swap(A[iter_e],A[iter_s+1]);
-
             iter_e--;
         }
+         swap(A[iter_s],A[iter_e]);
+        while(iter_s!=iter_e&&A[iter_s]<key)
+        {
+            iter_s++;
+        }
+        swap(A[iter_e],A[iter_s]);
     }
     return iter_s;
 
